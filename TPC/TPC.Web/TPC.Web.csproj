@@ -242,6 +242,8 @@
     <Content Include="Content\Fonts\icomoon.eot" />
     <Content Include="Content\Fonts\icomoon.ttf" />
     <Content Include="Content\Fonts\icomoon.woff" />
+    <Content Include="Views\Home\Sections\_Loader.cshtml" />
+    <Content Include="Views\Home\Sections\_HeaderMenu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
