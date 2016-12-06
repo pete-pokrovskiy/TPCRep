@@ -252,7 +252,7 @@
 }
 .slcontents:after{
     color: #fff;
-    content: "/";
+
     font-family: Roboto;
     font-size: 174px;
     font-weight: 400;
@@ -262,7 +262,6 @@
 }
 .slcontents:before{
     color: #fff;
-    content: "/";
     font-family: Roboto;
     font-size: 174px;
     font-weight: 400;
