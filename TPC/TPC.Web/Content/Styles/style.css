@@ -105,7 +105,7 @@
 .mainMenu ul li{
     list-style: none;
     float: left;
-    padding: 0 35px 40px 34px;
+    padding: 0 20px 30px 20px;
     position: relative;
     line-height: 10px;
     transition: all ease 400ms;
@@ -156,7 +156,7 @@
     padding-right: 0px;
 }
 .mainMenu ul li:after{
-    content: "/";
+    /*content: "/";*/
     font-size: 13px;
     color: #282828;
     position: absolute;
