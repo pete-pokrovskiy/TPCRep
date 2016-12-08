@@ -269,6 +269,16 @@
     left: 0;
     bottom: 50px;
 }
+
+.item-one {
+    background: url(../images/slide/1.jpg) no-repeat center center / cover;
+}
+.item-two {
+    background: url(../images/slide/2.jpeg) no-repeat center center / cover;
+}
+.item-three {
+    background: url(../images/slide/3.jpeg) no-repeat center center / cover;
+}
 .itemFour{
     background: url(../images/slide/4.jpg) no-repeat center center / cover;
 }
