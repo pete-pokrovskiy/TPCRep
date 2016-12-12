@@ -968,6 +968,31 @@ a.pp_close{
 
 }
 
+.lets-talk-button{
+    width: 500px;
+    height: 40px;
+    border: #222222;
+    border-radius: 0px;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    resize: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    transition: all ease 700ms;
+    -moz-transition: all ease 700ms;
+    -webkit-transition: all ease 700ms;
+    -ms-transition: all ease 700ms;
+    -o-transition: all ease 700ms;
+}
+
+
 /*=======================================================================
 //  Testimonial
 =========================================================================*/

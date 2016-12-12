@@ -79,7 +79,7 @@ h1, h2, h3,h4, h5, h6{
     width: 100%;
     position: relative;
     background: #FFF;
-    padding: 110px 0;
+    padding: 110px 0px 0px 0;
 }
 .sectionTitle{
     width: 100%;
