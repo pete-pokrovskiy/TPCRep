@@ -181,6 +181,28 @@
     color: #b38441;
 }
 
+
+.main-menu-button{
+    border: 2px solid #222;
+    border-radius: 22px;
+    background: none;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.7;
+    padding: 15px 30px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -o-transition: all ease 400ms;
+}
+
 /*=======================================================================
 // Slider 01
 =========================================================================*/
@@ -413,10 +435,10 @@
     letter-spacing: 0px;
 }
 .apButtons{
-    border: 2px solid #fff;
+    border: 2px solid #222;
     border-radius: 22px;
     background: none;
-    color: #fff;
+    color: #222;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -432,7 +454,13 @@
     -ms-transition: all ease 400ms;
     -o-transition: all ease 400ms;
 }
-.apButtons:hover{
+
+#workTogetherButton {
+    margin-top: 20px;
+}
+
+
+/*.apButtons:hover{
     background: #FFF;
 }
 .apButtons i{
@@ -441,7 +469,7 @@
 .apButtons:hover{
     color: #222;
     text-decoration: none;
-}
+}*/
 #carousel3{
     padding-bottom: 50px;
 }
@@ -967,31 +995,6 @@ a.pp_close{
     margin: 0 auto;
 
 }
-
-.lets-talk-button{
-    width: 500px;
-    height: 40px;
-    border: #222222;
-    border-radius: 0px;
-    background: none;
-    color: #FFF;
-    text-align: center;
-    resize: none;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-family: Roboto;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
-    transition: all ease 700ms;
-    -moz-transition: all ease 700ms;
-    -webkit-transition: all ease 700ms;
-    -ms-transition: all ease 700ms;
-    -o-transition: all ease 700ms;
-}
-
 
 /*=======================================================================
 //  Testimonial

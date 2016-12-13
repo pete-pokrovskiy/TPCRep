@@ -182,6 +182,7 @@
     <Content Include="Content\Images\history\7.png" />
     <Content Include="Content\Images\history\8.png" />
     <Content Include="Content\Images\history\9.png" />
+    <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\marker.png" />
     <Content Include="Content\Images\slide\1.jpg" />
     <Content Include="Content\Images\slide\2.jpeg" />
