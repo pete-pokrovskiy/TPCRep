@@ -105,7 +105,7 @@
 .mainMenu ul li{
     list-style: none;
     float: left;
-    padding: 0 20px 30px 20px;
+    padding: 0 35px 40px 34px;
     position: relative;
     line-height: 10px;
     transition: all ease 400ms;
@@ -156,7 +156,7 @@
     padding-right: 0px;
 }
 .mainMenu ul li:after{
-    /*content: "/";*/
+    content: "/";
     font-size: 13px;
     color: #282828;
     position: absolute;
@@ -179,27 +179,6 @@
 }
 .mainMenu ul li:hover > a, .mainMenu ul li.active > a{
     color: #b38441;
-}
-
-
-.main-menu-button{
-    border: 2px solid #222;
-    background: none;
-    color: #222;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 0.7;
-    padding: 15px 30px;
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    text-transform: uppercase;
-    transition: all ease 400ms;
-    -moz-transition: all ease 400ms;
-    -webkit-transition: all ease 400ms;
-    -ms-transition: all ease 400ms;
-    -o-transition: all ease 400ms;
 }
 
 /*=======================================================================
@@ -273,7 +252,7 @@
 }
 .slcontents:after{
     color: #fff;
-
+    content: "/";
     font-family: Roboto;
     font-size: 174px;
     font-weight: 400;
@@ -283,22 +262,13 @@
 }
 .slcontents:before{
     color: #fff;
+    content: "/";
     font-family: Roboto;
     font-size: 174px;
     font-weight: 400;
     position: absolute;
     left: 0;
     bottom: 50px;
-}
-
-.item-one {
-    background: url(../images/slide/1.jpg) no-repeat center center / cover;
-}
-.item-two {
-    background: url(../images/slide/2.jpeg) no-repeat center center / cover;
-}
-.item-three {
-    background: url(../images/slide/3.jpeg) no-repeat center center / cover;
 }
 .itemFour{
     background: url(../images/slide/4.jpg) no-repeat center center / cover;
@@ -434,10 +404,10 @@
     letter-spacing: 0px;
 }
 .apButtons{
-    border: 2px solid #222;
+    border: 2px solid #fff;
     border-radius: 22px;
     background: none;
-    color: #222;
+    color: #fff;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -453,13 +423,7 @@
     -ms-transition: all ease 400ms;
     -o-transition: all ease 400ms;
 }
-
-#workTogetherButton {
-    margin-top: 20px;
-}
-
-
-/*.apButtons:hover{
+.apButtons:hover{
     background: #FFF;
 }
 .apButtons i{
@@ -468,7 +432,7 @@
 .apButtons:hover{
     color: #222;
     text-decoration: none;
-}*/
+}
 #carousel3{
     padding-bottom: 50px;
 }
