@@ -248,6 +248,7 @@
     <Content Include="Views\Home\_HeaderMenu.cshtml" />
     <Content Include="Views\Home\Sections\_Slider.cshtml" />
     <Content Include="Views\Home\Sections\_About.cshtml" />
+    <Content Include="Views\Home\Sections\_Services.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
