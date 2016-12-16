@@ -58,9 +58,9 @@
     top: 0;
 }
 .logo{
-    padding: 31px 0;
+    padding: 10px 0;
     position: relative;
-    text-align: left;
+    text-align: center;
     width: 100%;
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
@@ -68,46 +68,40 @@
     -ms-transition: all ease 400ms;
     -o-transition: all ease 400ms;
 }
+.logo img {
+    height: 60px;
+}
+
 .fixedHeader .logo{
-    padding: 20px 0;
+    /*padding: 20px 0;*/
 }
-.logo a{
-    color: #282828;
-    font-size: 30px;
-    
-}
-.logo a:hover{
-    color: #b38441;
-}
-.logo a span{
-/*    font-size: 45px;*/
-    position: relative;
-    text-transform: uppercase;
-}
+
+
 .mainMenu{
     width: 100%;
     position: relative;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
     -ms-transition: all ease 400ms;
     -o-transition: all ease 400ms;
 }
-.fixedHeader .mainMenu{
-    padding-top: 30px;
+.fixedHeader /*.mainMenu*/{
+    /*padding-top: 30px;*/
 }
 .mainMenu ul{
     margin: 0;
     padding: 0;
     float: right;
+    line-height: 3; /*выбрал высоту путем подгона!*/
 }
 .mainMenu ul li{
     list-style: none;
     float: left;
-    padding: 0 20px 30px 20px;
+    padding: 20px 20px 0px 20px;
     position: relative;
-    line-height: 10px;
+    /*line-height: 50px;*/
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
@@ -115,7 +109,7 @@
     -o-transition: all ease 400ms;
 }
 .fixedHeader .mainMenu > ul > li{
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 .mainMenu ul li:hover .dropMenu{
     opacity: 1;
@@ -174,13 +168,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
-    line-height: 10px;
+    /*line-height: 10px;*/
     color: #282828;
 }
-.mainMenu ul li:hover > a, .mainMenu ul li.active > a{
+.mainMenu ul li > a:hover, .mainMenu ul li.active > a{
     color: #b38441;
 }
-
 
 .main-menu-button{
     border: 2px solid #222;
@@ -200,6 +193,12 @@
     -webkit-transition: all ease 400ms;
     -ms-transition: all ease 400ms;
     -o-transition: all ease 400ms;
+}
+
+.main-menu-button:hover {
+    background-color: #4A8FA7;
+    color: white !important; 
+    border: 2px solid #4A8FA7;
 }
 
 /*=======================================================================
