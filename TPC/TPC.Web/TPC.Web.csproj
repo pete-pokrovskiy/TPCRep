@@ -172,6 +172,8 @@
     <Content Include="Content\Images\folio\8.png" />
     <Content Include="Content\Images\folio\9.jpg" />
     <Content Include="Content\Images\folio\9.png" />
+    <Content Include="Content\Images\fun_facts\success.jpg" />
+    <Content Include="Content\Images\fun_facts\success_croped.jpg" />
     <Content Include="Content\Images\history\1.png" />
     <Content Include="Content\Images\history\10.png" />
     <Content Include="Content\Images\history\2.png" />

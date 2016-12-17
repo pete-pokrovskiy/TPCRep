@@ -226,6 +226,11 @@
         e.preventDefault();
         $('html, body').animate({scrollTop: 0}, 800);
     });
+
+    $("body, html").on("click", "#logoImage", function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 800);
+    });
     
     //========================
     // Contact Submit
@@ -359,7 +364,7 @@
     });
     
     function Scroll() {
-
+        //TODO: первый пункт меню остается подсвеченным
         var contentTop = [];
         var contentBottom = [];
         var winTop = $(window).scrollTop();

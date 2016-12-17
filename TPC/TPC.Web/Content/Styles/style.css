@@ -454,7 +454,7 @@
 }
 
 #workTogetherButton {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -713,7 +713,7 @@
 // Fun Facts
 =========================================================================*/
 .funfactsection{
-    background: url(../images/bg/bg12.jpg) no-repeat fixed center center / cover;
+    background: url(../images/fun_facts/success_croped.jpg) no-repeat fixed center center / cover;
 }
 .overlay{
     background: rgba(40, 40, 40, .6);
@@ -999,7 +999,7 @@ a.pp_close{
 =========================================================================*/
 .testimonialsection{
     position: relative;
-    background: url(../images/bg/bg14.jpg) no-repeat fixed center center / cover;
+    background: url(../images/fun_facts/success.jpg) no-repeat fixed center center / cover;
 }
 .testimonialsection .container{
     position: relative;
