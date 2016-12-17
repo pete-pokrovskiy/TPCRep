@@ -251,6 +251,15 @@
     <Content Include="Views\Home\Sections\_Slider.cshtml" />
     <Content Include="Views\Home\Sections\_About.cshtml" />
     <Content Include="Views\Home\Sections\_Services.cshtml" />
+    <Content Include="Views\Home\Sections\_Portfolio.cshtml" />
+    <Content Include="Views\Home\Sections\_Testimonials.cshtml" />
+    <Content Include="Views\Home\Sections\_Team.cshtml" />
+    <Content Include="Views\Home\Sections\_WorkProcess.cshtml" />
+    <Content Include="Views\Home\Sections\_Clients.cshtml" />
+    <Content Include="Views\Home\Sections\_Partners.cshtml" />
+    <Content Include="Views\Home\Sections\_History.cshtml" />
+    <Content Include="Views\Home\Sections\_Contacts.cshtml" />
+    <Content Include="Views\Home\_Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
