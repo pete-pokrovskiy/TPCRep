@@ -773,7 +773,7 @@
 .foliioMenu ul li{
     list-style: none;
     display: inline-block;
-    padding: 0 35px 0 34px;
+    padding: 10px 30px 10px 30px;
     position: relative;
     line-height: 10px;
     font-size: 13px;
@@ -789,12 +789,15 @@
     -o-transition: all ease 700ms;
 }
 .foliioMenu ul li:hover, .foliioMenu ul li.active{
-    color: #b38441;
+    background-color: #4A8FA7;
+    color: white !important; 
+    border: 2px solid #4A8FA7;
 }
-.foliioMenu ul li:last-child{
+/*.foliioMenu ul li:last-child{
     padding-right: 0px;
-}
-.foliioMenu ul li:after{
+}*/
+
+/*.foliioMenu ul li:after{
     content: "/";
     font-size: 13px;
     color: #282828;
@@ -804,7 +807,7 @@
     bottom: 0;
     margin:  auto 0;
     
-}
+}*/
 .foliioMenu ul li:last-child:after{
     display: none;
 }
@@ -1393,7 +1396,8 @@ a.pp_close{
 //  Client Section
 =========================================================================*/
 .clientSection{
-    background: url(../images/bg/bg8.jpg) no-repeat fixed center center / cover;
+        background: #f7f7f7;
+        position: relative;
 }
 .clientSection .container{
     position: relative;
