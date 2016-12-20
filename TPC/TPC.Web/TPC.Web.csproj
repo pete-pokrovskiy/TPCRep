@@ -267,6 +267,7 @@
     <Content Include="Views\Home\Sections\_History.cshtml" />
     <Content Include="Views\Home\Sections\_Contacts.cshtml" />
     <Content Include="Views\Home\_Footer.cshtml" />
+    <None Include="Properties\PublishProfiles\ppokrovskiy.ru.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
