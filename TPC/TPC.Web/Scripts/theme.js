@@ -267,8 +267,8 @@
             {
                 $.ajax({
                     type: "POST",
-                    url: 'mail.php',
-                    data: {con_name:con_name, con_email:con_email, con_message:con_message}, 
+                    url: '../Home/SendMessage',
+                    data: {name:con_name, email:con_email, message:con_message}, 
                     success: function(data)
                     {
                         $("#con_submit").html('Done!');

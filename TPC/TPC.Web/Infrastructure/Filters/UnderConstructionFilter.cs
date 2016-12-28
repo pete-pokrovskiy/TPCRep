@@ -12,7 +12,7 @@ namespace TPC.Web.Infrastructure.Filters
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             //если выставлен ключ IsUnderConstruction
-            if(ConfigSettings.IsUnderConstruction)
+            if(ConfigSettings.Instance.IsUnderConstruction)
                 filterContext.Result = new RedirectToRouteResult(new RouteValueDictionary( new
                 {
                     controller = "Home", action = "UnderConstruction"
