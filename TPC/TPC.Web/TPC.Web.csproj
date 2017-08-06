@@ -112,6 +112,7 @@
   <ItemGroup>
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Fonts\icomoon.svg" />
+    <Content Include="Content\Images\about\process_bird.jpeg" />
     <Content Include="Content\Images\bg\bg10.jpg" />
     <Content Include="Content\Images\bg\bg12.jpg" />
     <Content Include="Content\Images\bg\bg14.jpg" />
@@ -150,6 +151,14 @@
     <Content Include="Content\Images\client\7.png" />
     <Content Include="Content\Images\client\8.png" />
     <Content Include="Content\Images\client\9.png" />
+    <Content Include="Content\Images\client\bridge_tv.svg" />
+    <Content Include="Content\Images\client\dpt.png" />
+    <Content Include="Content\Images\client\lbl.png" />
+    <Content Include="Content\Images\client\mkrf-logo.svg" />
+    <Content Include="Content\Images\client\rusong_tv.svg" />
+    <Content Include="Content\Images\client\rus_song.png" />
+    <Content Include="Content\Images\client\sadovor_koltso.png" />
+    <Content Include="Content\Images\client\stageent.png" />
     <Content Include="Content\Images\diagonal_2.png" />
     <Content Include="Content\Images\favicon.png" />
     <Content Include="Content\Images\folio\1.jpg" />
