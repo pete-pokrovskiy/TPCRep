@@ -41,5 +41,10 @@ namespace TPC.Web.Controllers
 
             return Json(true);
         }
+
+        public ActionResult TestPortfolio()
+        {
+            return View("PortfolioPages/TestItem");
+        }
     }
 }

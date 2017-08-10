@@ -239,7 +239,7 @@
     {
         $("#contactForm").on('submit', function(e){
             e.preventDefault();
-            $("#con_submit").html('Wait..');
+            $("#con_submit").html('Подождите..');
             var con_name = $("#f_name").val();
             var con_email = $("#f_email").val();
             var con_message = $("#con_message").val();

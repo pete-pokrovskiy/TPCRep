@@ -270,6 +270,10 @@
     width: 70%;
     margin: 0 auto;
 }
+
+.centered-content {
+    text-align: center;
+}
 .slcontents:after{
     color: #fff;
 
