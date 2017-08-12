@@ -1,0 +1,73 @@
+﻿<div id="home"></div>
+<header class="header" id="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-sm-3">
+                <div class="logo">
+                    @*<a href="#">TPC</a>*@
+
+                    @*<a href="javascript:window.location.reload(true)">*@
+                    <a href="#" id="logoImage">
+                        <img src="~/Content/Images/logo.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-9 col-sm-9">
+                <nav class="mainMenu">
+                    <div id="menuToggle" class="hidden-lg hidden-md hidden-sm">
+                        <a href="#">Меню</a>
+                    </div>
+                    <ul>
+                        @*Выпадающее меню*@
+                        @*<li class="scroll hasChildren active">
+                                <a href="#home">Здесь текст на русском языке</a>
+                                <span class="expandbutton hidden-lg hidden-md hidden-sm"></span>
+                                <ul class="dropMenu">
+                                    <li>
+                                        <a href="index.html">Home Version 01</a>
+                                    </li>
+                                    <li>
+                                        <a href="index2.html">Home Version 02</a>
+                                    </li>
+                                    <li>
+                                        <a href="index3.html">Home Version 03</a>
+                                    </li>
+                                    <li>
+                                        <a href="index4.html">Home Version 04</a>
+                                    </li>
+                                </ul>
+                            </li>*@
+                        <li class="scroll">
+                            @*О нас*@
+                            <a href="/Home/Index#aboutus">Кто мы</a>
+                        </li>
+                        <li class="scroll">
+                            @*Наши услуги*@
+                            <a href="#features">Что мы делаем</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#work">Портфолио</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#team">Команда</a>
+                        </li>
+                        <li class="scroll">
+                            <a href="#clients">Клиенты</a>
+                        </li>
+                        @*<li class="scroll">
+                                <a href="#history">Отзывы клиентов</a>
+                            </li>
+                            <li class="scroll">
+                                <a href="#history">СМИ о нас</a>
+                            </li>*@
+                        @*Свяжитесь с нами/Контакты*@
+                        <li class="scroll">
+                            <a href="#contact" class="main-menu-button">напишите нам</a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
