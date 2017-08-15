@@ -216,6 +216,31 @@
     <Content Include="Content\Images\testimonial\1.png" />
     <Content Include="Content\Images\testimonial\2.png" />
     <Content Include="Content\Images\testimonial\3.png" />
+    <Content Include="Content\portfolio\familyofyear2016\1.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\10.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\11.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\12.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\13.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\14.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\15.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\16.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\17.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\18.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\19.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\2.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\20.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\21.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\22.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\23.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\24.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\3.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\4.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\5.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\6.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\7.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\8.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\9.jpg" />
+    <Content Include="Content\portfolio\familyofyear2016\logo.jpg" />
     <Content Include="Content\Styles\animate.css" />
     <Content Include="Content\Styles\bootstrap.css" />
     <Content Include="Content\Styles\colors\color1.css" />
@@ -279,8 +304,10 @@
     <Content Include="Views\Home\_Footer.cshtml" />
     <None Include="Properties\PublishProfiles\ppokrovskiy.ru.pubxml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
-    <Content Include="Views\Home\PortfolioPages\TestItem.cshtml" />
     <Content Include="Views\Shared\_NavigationLayout.cshtml" />
+    <Content Include="Views\Portfolio\FamilyOfYear2016.cshtml" />
+    <Content Include="Views\Shared\_NavigationLayoutWithLinks.cshtml" />
+    <Content Include="Views\Shared\_HeaderMenuWithLinks.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -304,6 +331,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -316,7 +344,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Test\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

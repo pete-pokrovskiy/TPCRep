@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPC.Domain", "TPC.Domain\TP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPC.Repository", "TPC.Repository\TPC.Repository.csproj", "{BFDE527F-E709-4188-8E8A-1A268CD23E1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPC.OriginalBootstrapTemplate", "TPC.OriginalBootstrapTemplate\TPC.OriginalBootstrapTemplate.csproj", "{BF6C2DEB-A34F-415A-9D4D-DF62A75445D3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Local|Any CPU = Local|Any CPU
@@ -35,10 +33,6 @@ Global
 		{BFDE527F-E709-4188-8E8A-1A268CD23E1B}.Local|Any CPU.Build.0 = Local|Any CPU
 		{BFDE527F-E709-4188-8E8A-1A268CD23E1B}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
 		{BFDE527F-E709-4188-8E8A-1A268CD23E1B}.Prod|Any CPU.Build.0 = Prod|Any CPU
-		{BF6C2DEB-A34F-415A-9D4D-DF62A75445D3}.Local|Any CPU.ActiveCfg = Local|Any CPU
-		{BF6C2DEB-A34F-415A-9D4D-DF62A75445D3}.Local|Any CPU.Build.0 = Local|Any CPU
-		{BF6C2DEB-A34F-415A-9D4D-DF62A75445D3}.Prod|Any CPU.ActiveCfg = Prod|Any CPU
-		{BF6C2DEB-A34F-415A-9D4D-DF62A75445D3}.Prod|Any CPU.Build.0 = Prod|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
