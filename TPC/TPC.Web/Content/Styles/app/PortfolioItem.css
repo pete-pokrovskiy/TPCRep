@@ -1,0 +1,11 @@
+﻿.portfolio-item-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio-item-header { text-transform: uppercase; }
+
+.portfolio-item-details {
+    padding: 30px;
+    background-color: #f8f8f8;
+}

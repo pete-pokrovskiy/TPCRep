@@ -265,6 +265,7 @@
     <Content Include="Content\portfolio\familyofyear2016\thumbnails\family-of-year-2016-thumb-8.jpg" />
     <Content Include="Content\portfolio\familyofyear2016\thumbnails\family-of-year-2016-thumb-9.jpg" />
     <Content Include="Content\Styles\animate.css" />
+    <Content Include="Content\Styles\app\PortfolioItem.css" />
     <Content Include="Content\Styles\bootstrap.css" />
     <Content Include="Content\Styles\colors\color1.css" />
     <Content Include="Content\Styles\colors\color2.css" />
@@ -329,7 +330,7 @@
     <Content Include="Views\Home\Sections\_Partners.cshtml" />
     <Content Include="Views\Home\Sections\_History.cshtml" />
     <Content Include="Views\Home\Sections\_Contacts.cshtml" />
-    <Content Include="Views\Home\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
     <None Include="Properties\PublishProfiles\ppokrovskiy.ru.pubxml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
     <Content Include="Views\Shared\_NavigationLayout.cshtml" />

@@ -3,8 +3,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@section Styles
+{
+    <link href="~/Content/Styles/app/PortfolioItem.css" rel="stylesheet" />
+}
+
 @Html.Partial("_Loader")
 @Html.Partial("_HeaderMenuWithLinks")
 @RenderBody()
+@Html.Partial("_Footer")
 
 
