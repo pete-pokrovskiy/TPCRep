@@ -110,6 +110,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Fonts\flaticon.html" />
+    <Content Include="Content\Fonts\Flaticon.svg" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Fonts\icomoon.svg" />
     <Content Include="Content\Images\about\process_bird.jpeg" />
@@ -273,6 +275,7 @@
     <Content Include="Content\Styles\colors\color3.css" />
     <Content Include="Content\Styles\colors\color4.css" />
     <Content Include="Content\Styles\colors\color5.css" />
+    <Content Include="Content\Styles\flaticon.css" />
     <Content Include="Content\Styles\font-awesome.css" />
     <Content Include="Content\Styles\iconmoon.css" />
     <Content Include="Content\Styles\linear-icons.css" />
@@ -332,6 +335,9 @@
     <Content Include="Views\Home\Sections\_History.cshtml" />
     <Content Include="Views\Home\Sections\_Contacts.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Content\Fonts\Flaticon.eot" />
+    <Content Include="Content\Fonts\Flaticon.ttf" />
+    <Content Include="Content\Fonts\Flaticon.woff" />
     <None Include="Properties\PublishProfiles\ppokrovskiy.ru.pubxml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
     <Content Include="Views\Shared\_NavigationLayout.cshtml" />
