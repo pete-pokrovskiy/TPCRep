@@ -342,60 +342,73 @@
 
     });
     
-    //$("#menuToggle a").on('click', function(e){
-    //    e.preventDefault();
-    //    $(".mainMenu > ul").slideToggle('slow');
-    //    $(this).toggleClass('active');
-    //});
+    $("#menuToggle a").on('click', function(e){
+        e.preventDefault();
+        $(".mainMenu > ul").slideToggle('slow');
+        $(this).toggleClass('active');
+    });
     
-    //$('.mainMenu ul li.scroll > a').on('click', function () {
-    //    if($(window).width() > 766)
-    //    {
-    //        $('html, body').animate({scrollTop: $(this.hash).offset().top - 68}, 1000);
-    //    }
-    //    else
-    //    {
-    //        $('html, body').animate({scrollTop: $(this.hash).offset().top - 68}, 1000);
-    //        $(".mainMenu > ul").slideUp('slow');
-    //        $("#menuToggle").removeClass('active');
-    //    }
-    //    return false;
-    //});
+
+    $('a.make-sure-button').on('click', function () {
+        if ($(window).width() > 766) {
+            $('html, body').animate({ scrollTop: $(this.hash).offset().top - 68 }, 1000);
+        }
+        else {
+            $('html, body').animate({ scrollTop: $(this.hash).offset().top - 68 }, 1000);
+            $(".mainMenu > ul").slideUp('slow');
+            $("#menuToggle").removeClass('active');
+        }
+        return false;
+    });
+
+    $('.mainMenu ul li.scroll > a').on('click', function () {
+        if($(window).width() > 766)
+        {
+            $('html, body').animate({scrollTop: $(this.hash).offset().top - 68}, 1000);
+        }
+        else
+        {
+            $('html, body').animate({scrollTop: $(this.hash).offset().top - 68}, 1000);
+            $(".mainMenu > ul").slideUp('slow');
+            $("#menuToggle").removeClass('active');
+        }
+        return false;
+    });
     
-    //$('.mainMenu ul li.hasChildren span.expandbutton').on('click', function(){
-    //    $(this).next('ul.dropMenu').slideToggle('slow');
-    //    $(this).toggleClass('active');
-    //});
+    $('.mainMenu ul li.hasChildren span.expandbutton').on('click', function(){
+        $(this).next('ul.dropMenu').slideToggle('slow');
+        $(this).toggleClass('active');
+    });
     
-    //function Scroll() {
-    //    //TODO: первый пункт меню остается подсвеченным
-    //    var contentTop = [];
-    //    var contentBottom = [];
-    //    var winTop = $(window).scrollTop();
-    //    var rangeTop = 70;
-    //    var rangeBottom = 500;
+    function Scroll() {
+        //TODO: первый пункт меню остается подсвеченным
+        var contentTop = [];
+        var contentBottom = [];
+        var winTop = $(window).scrollTop();
+        var rangeTop = 70;
+        var rangeBottom = 500;
 
-    //    $('.mainMenu').find('.scroll > a').each(function () {
-    //        var atr = $(this).attr('href');
-    //        if ($(atr).length > 0)
-    //        {
-    //            contentTop.push($($(this).attr('href')).offset().top);
-    //            contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
-    //        }
+        $('.mainMenu').find('.scroll > a').each(function () {
+            var atr = $(this).attr('href');
+            if ($(atr).length > 0)
+            {
+                contentTop.push($($(this).attr('href')).offset().top);
+                contentBottom.push($($(this).attr('href')).offset().top + $($(this).attr('href')).height());
+            }
 
-    //    });
+        });
 
-    //    $.each(contentTop, function (i) {
+        $.each(contentTop, function (i) {
 
-    //        if (winTop > contentTop[i] - rangeTop) {
+            if (winTop > contentTop[i] - rangeTop) {
 
-    //            $('.mainMenu li.scroll')
-    //                    .removeClass('active')
-    //                    .eq(i).addClass('active');
-    //        }
-    //    });
+                $('.mainMenu li.scroll')
+                        .removeClass('active')
+                        .eq(i).addClass('active');
+            }
+        });
 
-    //}
+    }
     
     if($(".colorPreset").length > 0)
     {

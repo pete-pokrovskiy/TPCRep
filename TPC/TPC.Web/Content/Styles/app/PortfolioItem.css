@@ -3,7 +3,10 @@
     margin-bottom: 50px;
 }
 
-.portfolio-item-header { text-transform: uppercase; }
+.portfolio-item-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .portfolio-item-details {
     padding: 30px;
