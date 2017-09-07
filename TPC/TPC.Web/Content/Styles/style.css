@@ -748,7 +748,7 @@
 // Fun Facts
 =========================================================================*/
 .funfactsection{
-    background: url(../images/fun_facts/success_croped.jpg) no-repeat fixed center center / cover;
+    /*background: url(../images/fun_facts/success_croped.jpg) no-repeat fixed center center / cover;*/
 }
 .overlay{
     background: rgba(40, 40, 40, .6);
@@ -1866,7 +1866,7 @@ a.pp_close{
     padding: 40px 0;
 }
 .socialMenu a{
-    font-size: 12px;
+    font-size: 40px;
     color: #282828;
     letter-spacing: 2px;
     text-transform: uppercase;
