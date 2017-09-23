@@ -201,7 +201,7 @@
     border: 2px solid #4A8FA7;
 }
 
-.make-sure-button{
+.common-button{
     margin-top: 20px;
     border: 2px solid #FFFFFF;
     background: none;
@@ -222,13 +222,13 @@
     -o-transition: all ease 400ms;
 }
 
-.make-sure-button:hover {
+.common-button:hover {
     background-color: #4A8FA7;
     color: white !important; 
     border: 2px solid #4A8FA7;
 }
 
-.make-sure-button:any-link {
+.common-button:any-link {
      color: #FFFFFF;
 }
 
@@ -748,10 +748,10 @@
 // Fun Facts
 =========================================================================*/
 .funfactsection{
-    /*background: url(../images/fun_facts/success_croped.jpg) no-repeat fixed center center / cover;*/
+    background: url(../images/fun_facts/bg.jpeg) no-repeat fixed center center / cover;
 }
 .overlay{
-    background: rgba(40, 40, 40, .6);
+    background: rgba(11, 11, 11, 0.6);/*rgba(40, 40, 40, .6);*/
     position: absolute;
     left: 0;
     top: 0;
@@ -900,7 +900,7 @@ a.pp_close{
     display: inline-block;
     background: rgba(179, 132, 65, .7);
     text-align: center;
-    padding-top: 91px;
+    padding-top: 50px;
 }
 .folioHoverContent i{
     font-size: 32px;
@@ -1229,7 +1229,7 @@ a.pp_close{
 //  Process
 =========================================================================*/
 .processSection{
-    background: url(../images/about/process_bird.jpeg) no-repeat fixed center center / cover;
+    background: url(../images/bg/work_process_bg.jpg) no-repeat fixed center center / cover;
 }
 .processTitle{
     margin: 0 0 20px;
@@ -1435,7 +1435,7 @@ a.pp_close{
 //  Client Section
 =========================================================================*/
 .clientSection{
-        background: #f7f7f7;
+        /*background: #f7f7f7;*/
         position: relative;
 }
 .clientSection .container{
@@ -1713,7 +1713,7 @@ a.pp_close{
 //  Contact Section
 =========================================================================*/
 .contactSection{
-    background: url(../images/bg/bg10.jpg) no-repeat fixed center center / cover;
+    background: url(../images/bg/contacts_bg.jpg) no-repeat fixed center center / cover;
 }
 .contactSection .container{
     position: relative;
@@ -1786,7 +1786,7 @@ a.pp_close{
 	color: #fff;
 	opacity: 1;
 }
-.contactForm button{
+/*.contactForm button{
     width: 170px;
     height: 40px;
     border: none;
@@ -1812,7 +1812,7 @@ a.pp_close{
 }
 .contactForm button:hover{
     color: #b38441;
-}
+}*/
 .submitbuttons{
     text-align: center;
 }

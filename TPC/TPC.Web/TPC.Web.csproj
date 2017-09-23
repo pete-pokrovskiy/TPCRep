@@ -110,20 +110,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\favicon\android-chrome-144x144.png" />
+    <Content Include="Content\favicon\apple-touch-icon.png" />
+    <Content Include="Content\favicon\browserconfig.xml" />
+    <Content Include="Content\favicon\favicon-16x16.png" />
+    <Content Include="Content\favicon\favicon-32x32.png" />
+    <Content Include="Content\favicon\favicon.ico" />
+    <Content Include="Content\favicon\mstile-150x150.png" />
+    <Content Include="Content\favicon\safari-pinned-tab.svg" />
     <Content Include="Content\Fonts\CustomIcoMoon\icomoon.svg" />
     <Content Include="Content\Fonts\Flaticon.svg" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Fonts\icomoon.svg" />
     <Content Include="Content\Images\about\process_bird.jpeg" />
-    <Content Include="Content\Images\bg\bg10.jpg" />
-    <Content Include="Content\Images\bg\bg12.jpg" />
-    <Content Include="Content\Images\bg\bg14.jpg" />
-    <Content Include="Content\Images\bg\bg17.jpg" />
-    <Content Include="Content\Images\bg\bg20.jpeg" />
-    <Content Include="Content\Images\bg\bg20.jpg" />
-    <Content Include="Content\Images\bg\bg6.jpg" />
-    <Content Include="Content\Images\bg\bg8.jpg" />
-    <Content Include="Content\Images\bg\bg9.jpg" />
+    <Content Include="Content\Images\bg\work_process_bg.jpg" />
+    <Content Include="Content\Images\fun_facts\bg.jpeg" />
     <Content Include="Content\Images\blog\f1.png" />
     <Content Include="Content\Images\blog\f2.png" />
     <Content Include="Content\Images\blog\f3.png" />
@@ -183,7 +184,7 @@
     <Content Include="Content\Images\folio\8.png" />
     <Content Include="Content\Images\folio\9.jpg" />
     <Content Include="Content\Images\folio\9.png" />
-    <Content Include="Content\Images\folio\people-festival-party-dancing.jpg" />
+    <Content Include="Content\Images\bg\contacts_bg.jpg" />
     <Content Include="Content\Images\folio\pexels-photo-132701.jpeg" />
     <Content Include="Content\Images\folio\pexels-photo-134469.jpeg" />
     <Content Include="Content\Images\folio\pexels-photo-24069.jpg" />
@@ -209,16 +210,14 @@
     <Content Include="Content\Images\slide\1.jpg" />
     <Content Include="Content\Images\slide\2.jpeg" />
     <Content Include="Content\Images\slide\3.jpeg" />
-    <Content Include="Content\Images\slide\4.jpg" />
-    <Content Include="Content\Images\slide\5.jpg" />
-    <Content Include="Content\Images\slide\6.jpg" />
-    <Content Include="Content\Images\team\1.jpg" />
+    <Content Include="Content\Images\team\1.png" />
     <Content Include="Content\Images\team\2.png" />
     <Content Include="Content\Images\team\3.png" />
     <Content Include="Content\Images\team\4.png" />
     <Content Include="Content\Images\testimonial\1.png" />
     <Content Include="Content\Images\testimonial\2.png" />
     <Content Include="Content\Images\testimonial\3.png" />
+    <Content Include="Content\portfolio\familyofyear2016\cover.jpg" />
     <Content Include="Content\portfolio\familyofyear2016\full\family-of-year-2016-0.jpg" />
     <Content Include="Content\portfolio\familyofyear2016\full\family-of-year-2016-1.jpg" />
     <Content Include="Content\portfolio\familyofyear2016\full\family-of-year-2016-10.jpg" />
@@ -342,6 +341,7 @@
     <Content Include="Content\Fonts\Flaticon.eot" />
     <Content Include="Content\Fonts\Flaticon.ttf" />
     <Content Include="Content\Fonts\Flaticon.woff" />
+    <Content Include="Content\favicon\manifest.json" />
     <None Include="Properties\PublishProfiles\ppokrovskiy.ru.pubxml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
     <Content Include="Views\Shared\_NavigationLayout.cshtml" />
