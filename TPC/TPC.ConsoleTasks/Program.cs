@@ -10,11 +10,23 @@ namespace TPC.ConsoleTasks
     {
         static void Main(string[] args)
         {
-            const string originalNameMask = "family-of-year-2016-{0}.jpg";
-            const string thumbnailNameMask = "family-of-year-2016-thumb-{0}.jpg";
+
+            if(args == null || (args.Length < 2))
+                throw new Exception("Неверно указаны аргументы!");
+
+            string path = args[0];
+
+            if(string.IsNullOrEmpty(path))
+                throw new Exception("Не задан путь к изображениям!");
+            
+            string nameMask = args[1];
+
+            if(string.IsNullOrEmpty(nameMask))
+                throw new Exception("Не указана маска имени файла!");
 
             AdjustFileNameService service = new AdjustFileNameService();
-            service.AdjustName("C:\\output-thumbnails", thumbnailNameMask);
+
+            service.AdjustName(path, nameMask);
 
 
             Console.ReadLine();

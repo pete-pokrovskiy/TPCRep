@@ -273,7 +273,7 @@
     //========================
     
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 40)
+        if ($(window).scrollTop() > 80) //&& $(document).height() > 1000) //TODO: проверить ограничение - пришлось поставить, тк с высотой документа GoldenPairs2017 начинается дергание
         {
             $("#header").addClass('fixedHeader');
         }

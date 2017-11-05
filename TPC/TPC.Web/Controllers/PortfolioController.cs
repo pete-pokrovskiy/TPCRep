@@ -12,5 +12,20 @@ namespace TPC.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult MoscowDay2016()
+        {
+            return View();
+        }
+
+        public ActionResult GoldenPairs2017()
+        {
+            return View();
+        }
+
+        public ActionResult SocialWorkerDay2017()
+        {
+            return View();
+        }
     }
 }

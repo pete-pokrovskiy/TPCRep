@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <title>@ViewBag.Title</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="@ViewBag.MetaDescription"/>
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Favicon Icon -->
     <link rel="apple-touch-icon" sizes="152x152" href="~/Content/favicon/apple-touch-icon.png">
@@ -12,27 +13,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="~/Content/favicon/favicon-16x16.png">
     <link rel="manifest" href="~/Content/favicon/manifest.json">
     <link rel="mask-icon" href="~/Content/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
 
-    <!-- Include All CSS -->
-    <link href="~/Content/Styles/animate.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/bootstrap.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/font-awesome.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/iconmoon.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/preset.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/prettyPhoto.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/responsive.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/magnific-popup.css" rel="stylesheet" />
-    <link href="~/Content/Styles/style.css" rel="stylesheet"/>
     <!--Иконки-->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link href="~/Content/Styles/flaticon.css" rel="stylesheet" />
-     @*выберем палитру синеватого цвета из логотипа*@
-    <link id="colorPreset" href="~/Content/Styles/colors/color1.css" rel="stylesheet"/>
-    <link href="~/Content/Styles/iconmoon-custom.css" rel="stylesheet"/>
 
-    <!-- End Include All CSS -->
-
+    @Styles.Render("~/Content/css")
     @RenderSection("Styles", false)
 
     <!--[if lt IE 9]>
@@ -44,15 +29,9 @@
 
 @RenderBody()
 
-<!-- Include All JS -->
-<script type="text/javascript" src="~/Scripts/jquery.js"></script>
-<script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
-<script type="text/javascript" src="~/Scripts/mixer.js"></script>
-<script type="text/javascript" src="~/Scripts/wow.min.js"></script>
-<script type="text/javascript" src="~/Scripts/jquery.appear.js"></script>
-<script type="text/javascript" src="~/Scripts/prettyPhoto.js"></script>
-    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
-<script src="~/Scripts/app/theme.js"></script>
-<script src="~/Scripts/app/app.jquery.js"></script>
+@Scripts.Render("~/bundles/scripts")
+
+@RenderSection("Scripts", required: false)
+
 </body>
 </html>
